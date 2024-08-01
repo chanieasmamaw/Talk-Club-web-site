@@ -1,0 +1,63 @@
+/* General body styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+}
+
+/* Header styling */
+header {
+  background: #333;
+  color: #fff;
+  padding: 1em 0;
+  text-align: center;
+}
+
+/* Header h1 styling */
+header h1 {
+  margin: 0;
+}
+
+/* Navigation styling */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center; /* Center the navigation links */
+}
+
+nav ul li {
+  display: inline; /* Display list items in one row */
+  margin: 0 10px; /* Space between links */
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 10px;
+  display: inline-block; /* Ensure padding works correctly */
+}
+
+nav ul li a:hover {
+  background: #555; /* Change background on hover for better UX */
+  border-radius: 5px;
+}
+
+/* Section styling */
+section {
+  padding: 20px;
+  background: #fff;
+  margin: 20px;
+  border-radius: 8px;
+}
+
+/* Footer styling */
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1em 0;
+  margin-top: 20px;
+}
